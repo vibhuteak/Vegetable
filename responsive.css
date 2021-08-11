@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1000px) {
+    .bar{
+        flex-direction: column;
+    }
+    .rt{
+        flex-direction: column;
+        text-align: center;
+       
+    }
+    .topnav{
+     flex-direction: column;
+     transition: all 0.7s ease-out;
+     height: 450px;
+    }
+     .logo{
+         text-align: center;
+         justify-content: center;
+     }
+ 
+     .mainBox{
+         max-height: 100%;
+         flex-direction:column-reverse ;
+ 
+     }
+     #search{
+         width: 100%;
+     }
+     .burger{
+         display: block;
+     }
+     .h-nav{
+         height: 72px;
+     }
+     .v-class{
+        opacity: 0;
+     }
+     .section{
+         flex-direction: column-reverse;
+     }
+     .big{
+         text-align: center;
+     }
+     .small{
+         text-align: center;
+     }
+     .button{
+         text-align: center;
+     }
+     .paras{
+         padding: 0px;
+     }
+ }
+ 

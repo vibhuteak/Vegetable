@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+margin: 0px;
+padding:0px
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+}
+.logo img {
+    width: 33%;
+    border: solid white 3px;
+    border-radius: 50px;
+}
+
+.topnav{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    position: sticky;
+   
+    justify-content: center;
+    top: 0;
+
+   
+}
+.bar{
+    display: flex;
+    width: 70%;
+    
+}
+
+.bar li{
+    list-style: none;
+    padding: 26px 35px;
+   }
+  
+.bar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+.bar li a:hover{
+    color:black;
+}
+.rt{
+   
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 5px;
+   font-size: 19px;
+   border: 2px solid gainsboro;
+   border-radius: 9px;
+}
+
+.background{
+    background: rgba(0,0,0,0.7) url('../img/veggie.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.mainBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    font-family: cursive;
+    max-width: 50%;
+    margin: auto;
+    height: 40%;
+}
+
+.firstSection{
+    height: 100vh;
+}
+.first{
+ width: 80%;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+.second{
+ width: 30%;
+}
+
+.second img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+   
+   }
+
+.big{
+    font-size: 30px;
+   
+   
+}
+.small{
+ font-size: 20px;
+
+}
+
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-size: 15px;
+   
+    cursor: pointer;
+}
+
+.section{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    flex-direction: column;
+   
+    
+    
+}
+
+.sectionTag{
+    padding: 16px 0;
+}
+.paras{
+    padding: 0 65px;
+}
+
+
+.left{
+    flex-direction: row-reverse;
+}
+
+.sectionSub{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.thumnail img{
+    width: 400px;
+    border: 3px solid black;
+    border-radius: 26px;
+    margin-top: 3px;
+}
+.contact{
+    background-color: #ece5e5;
+    height: 533px;
+    text-align: center;
+    padding: 0 0px;
+
+}
+.text-center{
+    text-align: center;
+    padding: 30px 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.form{
+    margin:2px auto;
+    max-width: 60%;
+}
+
+.form-input{
+    border: 2px solid black;
+    padding: 5px 3px;
+    font-size: 20px;
+    border-radius: 6px;
+    margin: 10px 0;
+    width: 100%;
+}
+.btn-dark{
+    color: black;
+    padding: 10px;
+    margin: 7px 0;
+    border-radius: 20px;
+    border: 2px solid;
+    font-size: 15px;
+     cursor: pointer;
+}
+.text-footer{
+    text-align: center;
+   color: white;
+   padding: 30px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.burger{
+position: absolute;
+cursor: pointer;
+right: 5%;
+top: 15px;
+display: none;
+}
+.line{
+    width:33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
